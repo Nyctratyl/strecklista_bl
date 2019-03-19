@@ -1,0 +1,153 @@
+html {
+    background-color: rgba(38, 38, 38, 1);
+}
+
+h1 {
+    text-align: center;
+	padding-top:10%;
+    padding-bottom: 5%;
+    font-family:times;
+    font-size: 4vw;
+}
+
+body {
+    color: rgba(200, 200, 200, 1);
+	margin:0;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 1.2vw;
+    font-family:helvetica;
+    background-color: rgba(50, 50, 50, 1);
+    border: 1px solid black;
+    padding: 5%;
+    padding-bottom: 10%;
+
+}
+
+tbody tr:nth-child(even) {background-color: rgba(30, 30, 30, 1);}
+tbody tr:hover {
+    background-color: #996713;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+	text-align:center;
+    padding: 2%;
+}
+
+button {
+    background-color: rgba(50,50,50,1);
+    color: white;
+    text-align: center;
+	height: 3vw;
+    font-size: 1.0vw;
+    font-family:helvetica;
+    border: 1px solid white;
+    margin: auto;
+
+}
+
+li {
+	float:left;
+}
+
+.listInput {
+	width:90%;
+	margin:0;
+	padding:0;
+}
+
+.dropbtn {
+	display: inline-block;
+	color: white;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration:none;
+}
+
+.dropdown {
+	display:inline-block;
+	position:relative;
+}
+
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content {
+	display:none;
+	background-color: #000;
+	position:absolute;
+	text-align:left;
+	width:100%;
+	padding:0.5em;
+	min-width: 160px;
+	box-shadow: 1px 2px 2px 2px #000;
+	z-index: 1;
+}
+
+.dropdown-content span {
+	padding-top: 5%;
+	display: block;
+}
+
+.dropdown-2:hover .dropdown-content-2 {
+	display: block;
+}
+
+.dropdown-2 {
+	width:140%;
+}
+
+.dropdown-content-2 {
+	display:none;
+	background-color: #000;
+	position:absolute;
+	text-align:left;
+	margin-top:-15%;
+	overflow:auto;
+	width:100%;
+	max-height: 50vh;
+	left:100%;
+	top:auto;
+	min-width: 160px;
+	box-shadow: 1px 2px 2px 2px #000;
+	z-index: 0;
+}
+
+.streckbutton {
+    width: 110%;
+    padding: 10%;
+}
+
+.sektionLabel {
+    border:0px;
+    background-color: rgba(0,0,0,1);
+}
+
+#navbar {
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+	background-color: #000;
+	position: fixed;
+	box-shadow: 0px 3px 2px 2px #000;
+	top:0;
+	width:100%;
+}
+
+#count_since {
+	border: 0;
+	margin-left:1em;
+	width:7em;
+	padding:0;
+}

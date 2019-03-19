@@ -1,0 +1,109 @@
+html {
+    background-color: rgba(38, 38, 38, 1);
+	padding: 2%;
+}
+
+#adminTools {
+	margin: auto;
+}
+
+#adminButtons {
+	width: 50%;
+	display: inline-block;
+}
+
+#latestStreck {
+	border: 1px solid black;
+	width: 30%;
+	padding: 1%;
+	margin: 3% auto;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 5%;
+    font-family:times;
+    font-size: 4vw;
+}
+
+body {
+    color: rgba(200, 200, 200, 1);
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 1.2vw;
+    font-family:helvetica;
+    background-color: rgba(50, 50, 50, 1);
+    border: 1px solid black;
+    padding: 5%;
+    padding-bottom: 10%;
+
+}
+input {
+	margin:auto;
+	width:100%;
+}
+form {
+    margin: auto;
+    text-align:center;
+    width: 30%;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+	text-align:center;
+    padding: 2%;
+}
+
+.sektionLabel {
+    border:0px;
+    background-color: rgba(0,0,0,1);
+}
+
+
+button {
+    background-color: rgba(50,50,50,1);
+    color: white;
+    text-align: center;
+	height: 3vw;
+    font-size: 1.0vw;
+    font-family:helvetica;
+    border: 1px solid white;
+    margin: auto;
+
+}
+
+#count_since {
+	width: 90%;
+	margin: auto;
+	padding: 1%;
+}
+
+.streckbutton {
+    width: 110%;
+    padding: 10%;
+}
+
+.sortbutton {
+    width: 32.3%;
+    display:inline-block;
+}
+#controls {
+    width:50%;
+    margin:auto;
+    text-align:center;
+    padding:1%;
+    font-family:helvetica;
+    font-size:1.0vw;
+}
+
+
+tbody tr:nth-child(even) {background-color: rgba(30, 30, 30, 1);}
+tbody tr:hover {
+    background-color: #996713;
+}
+
+
